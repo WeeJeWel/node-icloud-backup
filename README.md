@@ -4,13 +4,14 @@
 [![Build & Publish NPM Package](https://github.com/WeeJeWel/node-icloud-backup/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/WeeJeWel/node-icloud-backup/actions/workflows/npm-publish.yml)
 [![Build & Publish Docker Image](https://github.com/WeeJeWel/node-icloud-backup/actions/workflows/ghcr-publish.yml/badge.svg)](https://github.com/WeeJeWel/node-icloud-backup/actions/workflows/ghcr-publish.yml)
 
-This module automatically downloads your iCloud Drive to the filesystem.
+This module automatically downloads your iCloud Drive to the local filesystem.
 
 This tool will output the following directory structure:
 
 ```
 .
-├── Drive
+└── Drive
+    └── <...>
 ```
 
 ## Why?
@@ -32,6 +33,8 @@ $ npx -y icloud-backup \
   --filepath "~/Backups/iCloud/"
 ```
 
+> The first time you will need to enter your 2FA code manually.
+
 > Hint: You can schedule this in a cronjob for automated backups.
 
 #### Docker
@@ -39,7 +42,7 @@ $ npx -y icloud-backup \
 If you prefer Docker, this is an example how to run: 
 
 ```bash
-$ docker run \
+$ docker run -it \
   --env ICLOUD_BACKUP_USERNAME="john.doe@gmail.com" \
   --env ICLOUD_BACKUP_PASSWORD="abcd efgh ijkl mnop" \
   --env ICLOUD_BACKUP_FILEPATH="/backups" \
