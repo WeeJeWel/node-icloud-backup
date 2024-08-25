@@ -49,3 +49,7 @@ $ docker run -it \
   --volume="~/Backups/iCloud/:/backups/" \
   ghcr.io/weejewel/icloud-backup
 ```
+
+## Also see
+
+Looking to backup Google Mail, Calendar & Contacts in a similar way? See [Google Backup](https://github.com/WeeJeWel/node-google-backup).
