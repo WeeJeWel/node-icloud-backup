@@ -1,7 +1,6 @@
 {
   "name": "icloud-backup",
   "version": "1.0.0",
-  "main": "index.mjs",
   "scripts": {
     "start": "node ./bin/icloud-backup.mjs",
     "build:docker": "docker build -t icloud-backup .",
