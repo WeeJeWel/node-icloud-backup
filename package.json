@@ -1,0 +1,22 @@
+{
+  "name": "icloud-backup",
+  "version": "1.0.0",
+  "main": "index.mjs",
+  "scripts": {
+    "start": "node ./bin/icloud-backup.mjs",
+    "build:docker": "docker build -t icloud-backup .",
+    "start:docker": "docker compose up"
+  },
+  "bin": {
+    "icloud-backup": "./bin/icloud-backup.mjs"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "commander": "^12.1.0",
+    "fs-extra": "^11.2.0",
+    "icloudjs": "^1.5.1-patch1",
+    "input": "^1.0.1"
+  }
+}
