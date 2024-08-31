@@ -50,6 +50,10 @@ $ docker run -it \
   ghcr.io/weejewel/icloud-backup
 ```
 
+## Credits
+
+Most hard work is done by [@foxt](https://github.com/foxt) in [icloud.js](https://github.com/foxt/icloud.js).
+
 ## Also see
 
 Looking to backup Google Mail, Calendar & Contacts in a similar way? See [Google Backup](https://github.com/WeeJeWel/node-google-backup).
