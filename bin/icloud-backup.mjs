@@ -15,7 +15,7 @@ program
   .option('-f, --filepath <filepath>', 'Backup Filepath')
   .option('-s, --services <services>', 'Services to backup', value => {
     return value.split(',').map(value => value.trim());
-  }, ['drive'],
+  }, ['drive', 'photos'],
   )
   .parse();
 
@@ -29,4 +29,5 @@ const icloudBackup = new iCloudBackup({
 
 await Promise.all([
   options.services.includes('drive') && icloudBackup.backupDrive(),
+  options.services.includes('photos') && icloudBackup.backupPhotos(),
 ]);
