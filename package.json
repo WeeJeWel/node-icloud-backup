@@ -15,7 +15,7 @@
   "dependencies": {
     "commander": "^12.1.0",
     "fs-extra": "^11.2.0",
-    "icloudjs": "^1.5.1-patch1",
+    "icloudjs": "^1.6.1",
     "input": "^1.0.1"
   }
 }
