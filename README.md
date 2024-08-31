@@ -1,9 +1,9 @@
 # iCloud Backup
 
 [![NPM Version](https://img.shields.io/npm/v/icloud-backup)](https://npmjs.com/package/icloud-backup)
+[![Sponsor](https://img.shields.io/github/sponsors/weejewel)](https://github.com/sponsors/WeeJeWel)
 [![Build & Publish NPM Package](https://github.com/WeeJeWel/node-icloud-backup/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/WeeJeWel/node-icloud-backup/actions/workflows/npm-publish.yml)
 [![Build & Publish Docker Image](https://github.com/WeeJeWel/node-icloud-backup/actions/workflows/ghcr-publish.yml/badge.svg)](https://github.com/WeeJeWel/node-icloud-backup/actions/workflows/ghcr-publish.yml)
-[![Sponsor](https://img.shields.io/github/sponsors/weejewel)](https://github.com/sponsors/WeeJeWel)
 
 This module automatically downloads your iCloud Drive to the local filesystem.
 
