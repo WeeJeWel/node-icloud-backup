@@ -17,6 +17,7 @@
     "fs-extra": "^11.2.0",
     "icloudjs": "^1.5.1-patch1",
     "input": "^1.0.1",
+    "node-fetch": "^2.7.0",
     "p-queue": "^8.0.1"
   }
 }
