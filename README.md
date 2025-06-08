@@ -16,6 +16,11 @@ This tool will output the following directory structure:
 └── Photos
     └── All Photos
         └── <.png|.jpg|.mov|...>
+    └── My Album
+        └── <Symbolic link to All Photos>
+    └── My Shared Album
+        └── <Symbolic link to All Photos>
+    └── ...
 ```
 
 ## Why?
